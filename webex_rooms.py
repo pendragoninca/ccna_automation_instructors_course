@@ -10,8 +10,7 @@ def get_env_var(env_var):
 if __name__ == "__main__":
     load_dotenv()
     TOKEN=get_env_var("WEBEX_TEAMS_ACCESS_TOKEN")
-    #"-de50-43d7-ae6b-8071b71cb457"
-
+ 
     print("*"*40)
     print(TOKEN)
 
