@@ -139,6 +139,7 @@ celerybeat.pid
 # Environments
 .env
 .env_dnac
+,env_sandbox
 .envrc
 .venv
 env/
